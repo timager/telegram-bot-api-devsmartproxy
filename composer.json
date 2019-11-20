@@ -2,7 +2,6 @@
     "name": "devsmart/telegram-bot",
     "description": "Telegram Bot API with devsmartproxy",
     "homepage": "https://github.com/timager/telegram-bot-api-devsmartproxy",
-    "license": "MIT",
     "require": {
         "php" : ">=5.5.0",
         "ext-curl": "*"
@@ -26,3 +25,5 @@
         "test": "phpunit"
     }
 }
+
+
