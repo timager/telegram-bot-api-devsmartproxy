@@ -3,11 +3,19 @@
     "description": "Telegram Bot API with devsmartproxy",
     "homepage": "https://github.com/timager/telegram-bot-api-devsmartproxy",
     "require": {
-        "php" : ">=5.5.0",
+        "php": ">=5.5.0",
         "ext-curl": "*"
     },
+    "authors": [
+        {
+            "name": "timager",
+            "email": "timger98@gmail.com",
+            "homepage": "https://github.com/timager",
+            "role": "web-developer"
+        }
+    ],
     "require-dev": {
-        "phpunit/phpunit" : "~4.0",
+        "phpunit/phpunit": "~4.0",
         "squizlabs/php_codesniffer": "2.*",
         "codeception/codeception": "*"
     },
